@@ -1,0 +1,20 @@
+.friendName {
+    background-color: aqua;
+}
+
+.container {
+    width: 130px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 50%;
+    display: flex;
+    border: #11121d 2px solid;
+    border-radius: 14px;
+    padding: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.friendName {
+    color: #11121d;
+}
