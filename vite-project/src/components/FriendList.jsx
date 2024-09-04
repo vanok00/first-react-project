@@ -1,8 +1,10 @@
-import friends from '../friends.json'
+import FriendListItem from './FriendListItem'
 export default function FriendList() {
     return (
-        <>
-            <FriendList friends={friends} />
-        </>
+        <ul>
+            <li>
+                <FriendListItem />
+            </li>
+        </ul>
     )
 }
