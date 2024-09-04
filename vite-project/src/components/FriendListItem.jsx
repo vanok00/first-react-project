@@ -2,7 +2,7 @@ import styles from './FriendsList.module.css'
 import friends from '../friends.json'
 export default function FriendListItem() {
     return (
-        <div className="friendsList">
+        <div className={styles.friendsList}>
             {friends.map((friend) => (
                 <div key={friend.id} className={styles.container}>
                     <img src={friend.avatar} width="80" alt="User avatar" />
