@@ -1,0 +1,29 @@
+.table {
+    margin-left: 30%;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+tr > th {
+    background-color: rgb(48, 47, 47);
+    color: aliceblue;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.bodyItem {
+    width: 315px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border: black 1px solid;
+    text-align: start;
+    text-transform: capitalize;
+    padding-left: 100px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #e2dbdb;
+}

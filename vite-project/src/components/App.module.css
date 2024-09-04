@@ -20,6 +20,7 @@
 }
 
 .container {
+    margin-top: 100px;
     margin-left: 50%;
     display: flex;
     background-color: #eaeaeb;
