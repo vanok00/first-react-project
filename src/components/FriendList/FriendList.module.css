@@ -1,0 +1,21 @@
+.friendStatus {
+    text-align: center;
+}
+
+.container {
+    width: 120px;
+    height: 180px;
+    border: #11121d 2px solid;
+    border-radius: 14px;
+    padding: 20px;
+    text-align: center;
+}
+
+.friendsList {
+    margin-top: 100px;
+    margin-left: 37%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style-type: none;
+}

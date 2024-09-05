@@ -4,8 +4,11 @@
     margin: 0;
     list-style-type: none;
     border-top: #6d7f8f 2px solid;
-    gap: 48px;
+    gap: 22px;
     padding: 0;
+    background-color: #b8b8b8;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
 }
 
 .stats li:not(:last-child) {
@@ -22,15 +25,12 @@
 .container {
     margin-top: 100px;
     margin-left: 50%;
-    display: flex;
     background-color: #eaeaeb;
     border: #11121d 2px solid;
     border-radius: 14px;
     padding-top: 32px;
     padding-bottom: 0;
     width: 400px;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 20px;
 }
 
@@ -60,12 +60,16 @@
 }
 
 .bodyContainer {
-    padding: 0;
+    padding-bottom: 20px;
     text-align: center;
+    background-color: #fff;
+    background-color: #eaeaeb;
 }
 
 .statsText {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     color: #11121d;
+
+    text-align: center;
 }
